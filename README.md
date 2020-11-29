@@ -4,15 +4,15 @@
 
 # LABS <br />
 1)Familiarity with design description and hierarchical design. <br />
-      Simple Circuit and Half Adder<br />
+      Simple Circuit and Half Adder.<br />
 2)Extended familiarity with VHDL. <br />
-	4 Bit CLA and FSM <br />
+	4 Bit CLA and FSM. <br />
 3)Creating post-increment,pre-decrement stack. <br />
-	Push/Pop  operations <br />
+	Push/Pop  operations. <br />
 4)Recognition of operations for calculator design. <br />
-	Illustration of actions of calculator
+	Illustration of actions of calculator. <br />
 5)Complete Calculator Design. <br />
-	Connection of all internal design
+	Connection of all internal design. <br />
 
 The full Design of the implementation is shown in block diagram stack.vsdx. The internal implementations can be viewed in the other diagrams inside every lab.<br />
 
