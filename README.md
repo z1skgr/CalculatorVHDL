@@ -18,6 +18,12 @@ The full Design of the implementation is shown in block diagram stack.vsdx. The 
 
 Test Benches for specific interior designs for tests.
 
+SinglePulseGenerator.vhd is used for appplying simulation on FPGA. It is used for applying pulse in FPGA's buttons.
+
+The other .vhd files are created from scratch.
+
+Stack is created through Xilinx Core Generator with depth 32 positions and width 8 bits
+
 # How to Run
 Import project in Xilinx or create new project and import files.
 Xilix Version 13.0. Simulations can be viewed over ISIM. For simulation run Behavioural Check.
