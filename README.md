@@ -6,9 +6,9 @@
 1)Familiarity with design description and hierarchical design. <br />
       Simple Circuit and Half Adder<br />
 2)Extended familiarity with VHDL. <br />
-	4 Bit CLA and FSM 
+	4 Bit CLA and FSM <br />
 3)Creating post-increment,pre-decrement stack. <br />
-	Push/Pop  operations
+	Push/Pop  operations <br />
 4)Recognition of operations for calculator design. <br />
 	Illustration of actions of calculator
 5)Complete Calculator Design. <br />
