@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/LABS/LAB3/lab3/Top.xst" -ofn "C:/Xilinx/LABS/LAB3/lab3/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Lab3UCF.ucf -p xc3s100e-cp132-5 Top.ngc Top.ngd  

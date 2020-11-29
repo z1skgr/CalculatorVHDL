@@ -1,0 +1,143 @@
+V3 106
+FL C:/Xilinx/LABS/LAB3/lab3/and_gate.vhd 2017/04/02.19:22:14 O.87xd
+EN work/and_gate 1494329645 FL C:/Xilinx/LABS/LAB3/lab3/and_gate.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/and_gate/Behavioral 1494329646 \
+      FL C:/Xilinx/LABS/LAB3/lab3/and_gate.vhd EN work/and_gate 1494329645
+FL C:/Xilinx/LABS/LAB3/lab3/BehCounter.vhd 2017/05/08.01:54:28 O.87xd
+EN work/BehCounter 1494329633 FL C:/Xilinx/LABS/LAB3/lab3/BehCounter.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/BehCounter/Behavioral 1494329634 \
+      FL C:/Xilinx/LABS/LAB3/lab3/BehCounter.vhd EN work/BehCounter 1494329633
+FL C:/Xilinx/LABS/LAB3/lab3/CarryGPU.vhd 2017/05/09.03:53:53 O.87xd
+EN work/CarryGPU 1494328752 FL C:/Xilinx/LABS/LAB3/lab3/CarryGPU.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/CarryGPU/Behavioral 1494328753 \
+      FL C:/Xilinx/LABS/LAB3/lab3/CarryGPU.vhd EN work/CarryGPU 1494328752 \
+      CP Generate_Propagate
+FL C:/Xilinx/LABS/LAB3/lab3/CLA.vhd 2017/05/08.01:37:37 O.87xd
+EN work/CLA 0 FL C:/Xilinx/LABS/LAB3/lab3/CLA.vhd PB ieee/std_logic_1164 1325952872
+AR work/CLA/Behavioral 0 \
+      FL C:/Xilinx/LABS/LAB3/lab3/CLA.vhd EN work/CLA 0 CP CarryGPU CP CLAU \
+      CP SUM_UNIT
+FL C:/Xilinx/LABS/LAB3/lab3/CLA8BIT.vhd 2017/05/08.01:37:36 O.87xd
+EN work/CLA8BIT 0 FL C:/Xilinx/LABS/LAB3/lab3/CLA8BIT.vhd PB ieee/std_logic_1164 1325952872
+AR work/CLA8BIT/Behavioral 0 \
+      FL C:/Xilinx/LABS/LAB3/lab3/CLA8BIT.vhd EN work/CLA8BIT 0 CP CLA
+FL C:/Xilinx/LABS/LAB3/lab3/CLAU.vhd 2017/05/09.14:16:53 O.87xd
+EN work/CLAU 1494328754 FL C:/Xilinx/LABS/LAB3/lab3/CLAU.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/CLAU/Behavioral 1494328755 \
+      FL C:/Xilinx/LABS/LAB3/lab3/CLAU.vhd EN work/CLAU 1494328754
+FL C:/Xilinx/LABS/LAB3/lab3/Coder.vhd 2017/04/02.19:22:14 O.87xd
+EN work/Coder 1494329641 FL C:/Xilinx/LABS/LAB3/lab3/Coder.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Coder/Behavioral 1494329642 \
+      FL C:/Xilinx/LABS/LAB3/lab3/Coder.vhd EN work/Coder 1494329641
+FL C:/Xilinx/LABS/LAB3/lab3/Comparator_Equality.vhd 2017/04/02.19:22:12 O.87xd
+EN work/Comparator_Equality 1494329665 \
+      FL C:/Xilinx/LABS/LAB3/lab3/Comparator_Equality.vhd PB ieee/std_logic_1164 1325952872
+AR work/Comparator_Equality/Behavioral 1494329666 \
+      FL C:/Xilinx/LABS/LAB3/lab3/Comparator_Equality.vhd \
+      EN work/Comparator_Equality 1494329665 CP xnor_gate CP and_gate
+FL C:/Xilinx/LABS/LAB3/lab3/COUNTER.vhd 2017/04/05.18:35:28 O.87xd
+EN work/COUNTER 1494329663 FL C:/Xilinx/LABS/LAB3/lab3/COUNTER.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/COUNTER/Behavioral 1494329664 \
+      FL C:/Xilinx/LABS/LAB3/lab3/COUNTER.vhd EN work/COUNTER 1494329663 CP MUX4v1 \
+      CP FlipFlop
+FL C:/Xilinx/LABS/LAB3/lab3/Decoder.vhd 2017/04/26.22:42:54 O.87xd
+EN work/Decoder 1494329639 FL C:/Xilinx/LABS/LAB3/lab3/Decoder.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Decoder/Behavioral 1494329640 \
+      FL C:/Xilinx/LABS/LAB3/lab3/Decoder.vhd EN work/Decoder 1494329639
+FL C:/Xilinx/LABS/LAB3/lab3/FlipFlop.vhd 2017/04/03.20:35:24 O.87xd
+EN work/FlipFlop 1494329649 FL C:/Xilinx/LABS/LAB3/lab3/FlipFlop.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/FlipFlop/Behavioral 1494329650 \
+      FL C:/Xilinx/LABS/LAB3/lab3/FlipFlop.vhd EN work/FlipFlop 1494329649
+FL C:/Xilinx/LABS/LAB3/lab3/FSM.vhd 2017/05/06.22:48:53 O.87xd
+EN work/FSM0 1494329653 FL C:/Xilinx/LABS/LAB3/lab3/FSM.vhd PB ieee/std_logic_1164 1325952872
+AR work/FSM0/Behavioral 1494329654 \
+      FL C:/Xilinx/LABS/LAB3/lab3/FSM.vhd EN work/FSM0 1494329653
+FL C:/Xilinx/LABS/LAB3/lab3/FSM1.vhd 2017/04/28.10:34:02 O.87xd
+EN work/FSM1 1494329655 FL C:/Xilinx/LABS/LAB3/lab3/FSM1.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/FSM1/Behavioral 1494329656 \
+      FL C:/Xilinx/LABS/LAB3/lab3/FSM1.vhd EN work/FSM1 1494329655
+FL C:/Xilinx/LABS/LAB3/lab3/FSM2.vhd 2017/04/28.10:38:05 O.87xd
+EN work/FSM2 1494329657 FL C:/Xilinx/LABS/LAB3/lab3/FSM2.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/FSM2/Behavioral 1494329658 \
+      FL C:/Xilinx/LABS/LAB3/lab3/FSM2.vhd EN work/FSM2 1494329657
+FL C:/Xilinx/LABS/LAB3/lab3/Generate_Propagate.vhd 2017/05/09.03:44:32 O.87xd
+EN work/Generate_Propagate 1494328750 \
+      FL C:/Xilinx/LABS/LAB3/lab3/Generate_Propagate.vhd PB ieee/std_logic_1164 1325952872
+AR work/Generate_Propagate/Behavioral 1494328751 \
+      FL C:/Xilinx/LABS/LAB3/lab3/Generate_Propagate.vhd \
+      EN work/Generate_Propagate 1494328750
+FL C:/Xilinx/LABS/LAB3/lab3/ipcore_dir/STACK.vhd 2017/04/02.19:49:55 O.87xd
+EN work/STACK 1494329661 FL C:/Xilinx/LABS/LAB3/lab3/ipcore_dir/STACK.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/STACK/STACK_a 1494329662 \
+      FL C:/Xilinx/LABS/LAB3/lab3/ipcore_dir/STACK.vhd EN work/STACK 1494329661
+FL C:/Xilinx/LABS/LAB3/lab3/ModeFsm.vhd 2017/04/27.21:04:17 O.87xd
+EN work/ModeFsm 1494329659 FL C:/Xilinx/LABS/LAB3/lab3/ModeFsm.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/ModeFsm/Behavioral 1494329660 \
+      FL C:/Xilinx/LABS/LAB3/lab3/ModeFsm.vhd EN work/ModeFsm 1494329659
+FL C:/Xilinx/LABS/LAB3/lab3/MUX.vhd 2017/04/05.18:33:32 O.87xd
+EN work/MUX2v1 1494329631 FL C:/Xilinx/LABS/LAB3/lab3/MUX.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/MUX2v1/Behavioral 1494329632 \
+      FL C:/Xilinx/LABS/LAB3/lab3/MUX.vhd EN work/MUX2v1 1494329631
+FL C:/Xilinx/LABS/LAB3/lab3/MUX32x8.vhd 2017/04/02.19:22:14 O.87xd
+EN work/MUX32x8 1494329637 FL C:/Xilinx/LABS/LAB3/lab3/MUX32x8.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/MUX32x8/Behavioral 1494329638 \
+      FL C:/Xilinx/LABS/LAB3/lab3/MUX32x8.vhd EN work/MUX32x8 1494329637
+FL C:/Xilinx/LABS/LAB3/lab3/MUX4v1.vhd 2017/04/05.18:35:28 O.87xd
+EN work/MUX4v1 1494329647 FL C:/Xilinx/LABS/LAB3/lab3/MUX4v1.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/MUX4v1/Behavioral 1494329648 \
+      FL C:/Xilinx/LABS/LAB3/lab3/MUX4v1.vhd EN work/MUX4v1 1494329647 CP MUX2v1
+FL C:/Xilinx/LABS/LAB3/lab3/singlepulsegen.vhd 2017/04/02.19:22:13 O.87xd
+EN work/singlepulsegen 1494329651 FL C:/Xilinx/LABS/LAB3/lab3/singlepulsegen.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/singlepulsegen/behavioral 1494329652 \
+      FL C:/Xilinx/LABS/LAB3/lab3/singlepulsegen.vhd EN work/singlepulsegen 1494329651
+FL C:/Xilinx/LABS/LAB3/lab3/SSDController.vhd 2017/05/03.17:51:55 O.87xd
+EN work/SSDController 1494329667 FL C:/Xilinx/LABS/LAB3/lab3/SSDController.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SSDController/Behavioral 1494329668 \
+      FL C:/Xilinx/LABS/LAB3/lab3/SSDController.vhd EN work/SSDController 1494329667 \
+      CP BehCounter CP SSDFSM CP MUX32x8 CP Decoder CP Coder
+FL C:/Xilinx/LABS/LAB3/lab3/SSDFSM.vhd 2017/04/03.20:02:49 O.87xd
+EN work/SSDFSM 1494329635 FL C:/Xilinx/LABS/LAB3/lab3/SSDFSM.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SSDFSM/Behavioral 1494329636 \
+      FL C:/Xilinx/LABS/LAB3/lab3/SSDFSM.vhd EN work/SSDFSM 1494329635
+FL C:/Xilinx/LABS/LAB3/lab3/SUM_SINGLE_UNIT.vhd 2017/05/08.01:37:36 O.87xd
+EN work/SUM_SINGLE_UNIT 1494328748 \
+      FL C:/Xilinx/LABS/LAB3/lab3/SUM_SINGLE_UNIT.vhd PB ieee/std_logic_1164 1325952872
+AR work/SUM_SINGLE_UNIT/Behavioral 1494328749 \
+      FL C:/Xilinx/LABS/LAB3/lab3/SUM_SINGLE_UNIT.vhd EN work/SUM_SINGLE_UNIT 1494328748
+FL C:/Xilinx/LABS/LAB3/lab3/SUM_UNIT.vhd 2017/05/09.03:53:29 O.87xd
+EN work/SUM_UNIT 1494328756 FL C:/Xilinx/LABS/LAB3/lab3/SUM_UNIT.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/SUM_UNIT/Behavioral 1494328757 \
+      FL C:/Xilinx/LABS/LAB3/lab3/SUM_UNIT.vhd EN work/SUM_UNIT 1494328756 \
+      CP SUM_SINGLE_UNIT
+FL C:/Xilinx/LABS/LAB3/lab3/Top.vhd 2017/05/08.01:53:38 O.87xd
+EN work/Top 1494329669 FL C:/Xilinx/LABS/LAB3/lab3/Top.vhd PB ieee/std_logic_1164 1325952872 \
+      PB ieee/std_logic_arith 1325952873
+AR work/Top/Behavioral 1494329670 \
+      FL C:/Xilinx/LABS/LAB3/lab3/Top.vhd EN work/Top 1494329669 CP singlepulsegen \
+      CP FSM0 CP FSM1 CP FSM2 CP ModeFsm CP STACK CP COUNTER CP Comparator_Equality \
+      CP SSDController
+FL C:/Xilinx/LABS/LAB3/lab3/xnor_gate.vhd 2017/04/02.19:22:12 O.87xd
+EN work/xnor_gate 1494329643 FL C:/Xilinx/LABS/LAB3/lab3/xnor_gate.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/xnor_gate/Behavioral 1494329644 \
+      FL C:/Xilinx/LABS/LAB3/lab3/xnor_gate.vhd EN work/xnor_gate 1494329643

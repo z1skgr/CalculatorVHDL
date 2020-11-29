@@ -1,0 +1,29 @@
+Command line:
+   TopFsm_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49258
+
+Mon Mar 13 23:33:47 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 504.893 Meg
+
+ Total Signals          : 35
+ Total Nets             : 24
+ Total Signal Drivers   : 12
+ Total Blocks           : 8
+ Total Primitive Blocks : 7
+ Total Processes        : 11
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 402
+Total Line Count : 48
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 504.893 Meg
+
+Mon Mar 13 23:33:56 2017
+

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Xilinx/LABS/LAB3/lab3/xst/projnav.tmp"
+set -xsthdpdir "C:/Xilinx/LABS/LAB3/lab3/xst"
+elaborate
+-ifn CLA8BIT.prj
+-ifmt mixed

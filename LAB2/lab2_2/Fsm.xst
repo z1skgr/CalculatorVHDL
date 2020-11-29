@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/sab/Desktop/ACE203Labs/lab2/lab2_2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/sab/Desktop/ACE203Labs/lab2/lab2_2/xst"
+elaborate
+-ifn Fsm.prj
+-ifmt mixed

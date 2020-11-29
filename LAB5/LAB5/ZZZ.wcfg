@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Xilinx/LABS/LAB3/lab3/testTop_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testtop" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/testtop/btn1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn1</obj_property>
+      <obj_property name="ObjectShortName">btn1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/btn2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn2</obj_property>
+      <obj_property name="ObjectShortName">btn2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/mode" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/numin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">numin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">numin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/numout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">numout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">numout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/ssd_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ssd_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ssd_en[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/ssd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ssd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ssd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/a_signal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a_signal</obj_property>
+      <obj_property name="ObjectShortName">a_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/s_signal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s_signal</obj_property>
+      <obj_property name="ObjectShortName">s_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/as_pushen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">as_pushen</obj_property>
+      <obj_property name="ObjectShortName">as_pushen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/as_popen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">as_popen</obj_property>
+      <obj_property name="ObjectShortName">as_popen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/addsubaction" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addsubaction</obj_property>
+      <obj_property name="ObjectShortName">addsubaction</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/fsm0en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fsm0en</obj_property>
+      <obj_property name="ObjectShortName">fsm0en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/reg0act" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reg0act</obj_property>
+      <obj_property name="ObjectShortName">reg0act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/reg1act" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reg1act</obj_property>
+      <obj_property name="ObjectShortName">reg1act</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/currents" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">currents</obj_property>
+      <obj_property name="ObjectShortName">currents</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/AddSubFSM/nexts" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">nexts</obj_property>
+      <obj_property name="ObjectShortName">nexts</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/Reg0/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/Reg0/d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/Reg0/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testtop/uut/Reg0/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">q[7:0]</obj_property>
+   </wvobject>
+</wave_config>

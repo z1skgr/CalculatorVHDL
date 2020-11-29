@@ -1,0 +1,5 @@
+vhdtdtfi -prj lab3 -o C:/Xilinx/LABS/LAB3/lab3/Demux4v1.vhi -module Demux4v1 -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Demux4v1.vhd 
+vhdtdtfi -lib work Demux4v1.vhd -prj lab3 -o Demux4v1.spl -module Demux4v1 -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Demux4v1.spl C:/Xilinx/LABS/LAB3/lab3/Demux4v1.sym 
+vhdtdtfi -prj lab3 -o C:/Xilinx/LABS/LAB3/lab3/Demux4v1.vhi -module Demux4v1 -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Demux4v1.vhd 
+vhdtdtfi -prj lab3 -o C:/Xilinx/LABS/LAB3/lab3/Demux4v1.vhi -module Demux4v1 -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Demux4v1.vhd 

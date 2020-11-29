@@ -1,0 +1,9 @@
+[Inputs]
+=Input1[7:0]=
+=Sign[1:0]=
+=Input2[7:0]=
+=Input3[7:0]=
+=Input4[7:0]=
+[Outputs]
+=Output[7:0]=
+[BiDir]

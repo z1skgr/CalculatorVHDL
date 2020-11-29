@@ -1,0 +1,25 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/sab/Desktop/ACE203Labs/lab2/lab2_2/testFSM_isim_beh.exe -prj C:/Users/sab/Desktop/ACE203Labs/lab2/lab2_2/testFSM_beh.prj work.testFSM 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/sab/Desktop/ACE203Labs/lab2/lab2_2/singlepulsegen.vhd" into library work
+Parsing VHDL file "C:/Users/sab/Desktop/ACE203Labs/lab2/lab2_2/Fsm.vhd" into library work
+Parsing VHDL file "C:/Users/sab/Desktop/ACE203Labs/lab2/lab2_2/TopFsm.vhd" into library work
+Parsing VHDL file "C:/Users/sab/Desktop/ACE203Labs/lab2/lab2_2/testFSM.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity singlepulsegen [singlepulsegen_default]
+Compiling architecture behavioral of entity Fsm [fsm_default]
+Compiling architecture behavioral of entity TopFsm [topfsm_default]
+Compiling architecture behavior of entity testfsm
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable C:/Users/sab/Desktop/ACE203Labs/lab2/lab2_2/testFSM_isim_beh.exe
+Fuse Memory Usage: 32948 KB
+Fuse CPU Usage: 905 ms

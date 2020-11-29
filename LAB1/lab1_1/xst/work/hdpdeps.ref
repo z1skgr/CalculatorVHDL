@@ -1,0 +1,6 @@
+V3 3
+FL C:/Xilinx/LABS/lab1_1/circuit1.vhd 2017/02/25.21:43:57 O.87xd
+EN work/circuit1 1488053490 FL C:/Xilinx/LABS/lab1_1/circuit1.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/circuit1/Behavioral 1488053491 \
+      FL C:/Xilinx/LABS/lab1_1/circuit1.vhd EN work/circuit1 1488053490

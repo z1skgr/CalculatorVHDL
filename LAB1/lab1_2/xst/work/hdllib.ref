@@ -1,0 +1,4 @@
+EN half_adder NULL C:/Xilinx/LABS/lab1_2/Half_Adder.vhd sub00/vhpl00 1488057063
+AR full_adder behavioral C:/Xilinx/LABS/lab1_2/Full_Adder.vhd sub00/vhpl03 1488057066
+EN full_adder NULL C:/Xilinx/LABS/lab1_2/Full_Adder.vhd sub00/vhpl02 1488057065
+AR half_adder behavioral C:/Xilinx/LABS/lab1_2/Half_Adder.vhd sub00/vhpl01 1488057064

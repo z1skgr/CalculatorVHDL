@@ -1,0 +1,45 @@
+# clock pin for Basys2 Board
+NET "Clock" LOC = "B8"; # Bank = 0, Signal name = MCLK
+NET "Clock" CLOCK_DEDICATED_ROUTE = FALSE;
+
+# Pin assignment for DispCtl
+# Connected to Basys2 onBoard 7seg display
+NET "SSD<7>" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "SSD<6>" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "SSD<5>" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "SSD<4>" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "SSD<3>" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "SSD<2>" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "SSD<1>" LOC = "M12"; # Bank = 1, Signal name = CG
+NET "SSD<0>" LOC = "N13"; # Bank = 1, Signal name = DP
+
+NET "SSD_EN<3>" LOC = "K14"; # Bank = 1, Signal name = AN3
+NET "SSD_EN<2>" LOC = "M13"; # Bank = 1, Signal name = AN2
+NET "SSD_EN<1>" LOC = "J12"; # Bank = 1, Signal name = AN1
+NET "SSD_EN<0>" LOC = "F12"; # Bank = 1, Signal name = AN0
+
+# Pin assignment for LEDs
+NET "NUMOUT<7>" LOC = "G1" ; # Bank = 3, Signal name = LD7
+NET "NUMOUT<6>" LOC = "P4" ; # Bank = 2, Signal name = LD6
+NET "NUMOUT<5>" LOC = "N4" ;  # Bank = 2, Signal name = LD5
+NET "NUMOUT<4>" LOC = "N5" ;  # Bank = 2, Signal name = LD4
+NET "NUMOUT<3>" LOC = "P6" ; # Bank = 2, Signal name = LD3
+NET "NUMOUT<2>" LOC = "P7" ; # Bank = 3, Signal name = LD2
+NET "NUMOUT<1>" LOC = "M11" ; # Bank = 2, Signal name = LD1
+NET "NUMOUT<0>" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+# Pin assignment for SWs
+NET "NUMIN<7>" LOC = "N3";  # Bank = 2, Signal name = SW7
+NET "NUMIN<6>" LOC = "E2";  # Bank = 3, Signal name = SW6
+NET "NUMIN<5>" LOC = "F3";  # Bank = 3, Signal name = SW5
+NET "NUMIN<4>" LOC = "G3";  # Bank = 3, Signal name = SW4
+NET "NUMIN<3>" LOC = "B4";  # Bank = 3, Signal name = SW3
+NET "NUMIN<2>" LOC = "K3";  # Bank = 3, Signal name = SW2
+NET "NUMIN<1>" LOC = "L3";  # Bank = 3, Signal name = SW1
+NET "NUMIN<0>" LOC = "P11";  # Bank = 2, Signal name = SW0
+
+
+NET "Push" LOC = "A7";  # Bank = 0, Signal name = BTN2
+NET "Pop" LOC = "M4"; # Bank = 2, Signal name = BTN1
+NET "Mode" LOC = "C11";
+NET "Reset" LOC = "G12"; # Bank = 0, Signal name = BTN0

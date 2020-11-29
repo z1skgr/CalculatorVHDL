@@ -1,0 +1,24 @@
+# Output products list for <STACK>
+STACK.asy
+STACK.gise
+STACK.ngc
+STACK.sym
+STACK.vhd
+STACK.vho
+STACK.xco
+STACK.xise
+STACK_flist.txt
+STACK_ste\example_design\STACK_top.ucf
+STACK_ste\example_design\STACK_top.vhd
+STACK_ste\example_design\STACK_top.xdc
+STACK_ste\implement\implement.bat
+STACK_ste\implement\implement.sh
+STACK_ste\implement\planAhead_rdn.bat
+STACK_ste\implement\planAhead_rdn.sh
+STACK_ste\implement\planAhead_rdn.tcl
+STACK_ste\implement\xst.prj
+STACK_ste\implement\xst.scr
+STACK_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+dist_mem_gen_ds322.pdf
+dist_mem_gen_v6_3_readme.txt

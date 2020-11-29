@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Top_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/STACK.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testReg_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testTop_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testTop_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testTop_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1493823126" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1493823126">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493823126" xil_pn:in_ck="610091547630307046" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1493823126">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="AddFSMTest.vhd"/>
+      <outfile xil_pn:name="BehCounter.vhd"/>
+      <outfile xil_pn:name="COUNTER.vhd"/>
+      <outfile xil_pn:name="Coder.vhd"/>
+      <outfile xil_pn:name="Comparator_Equality.vhd"/>
+      <outfile xil_pn:name="Decoder.vhd"/>
+      <outfile xil_pn:name="FSM.vhd"/>
+      <outfile xil_pn:name="FSM1.vhd"/>
+      <outfile xil_pn:name="FSM2.vhd"/>
+      <outfile xil_pn:name="FlipFlop.vhd"/>
+      <outfile xil_pn:name="MUX.vhd"/>
+      <outfile xil_pn:name="MUX32x8.vhd"/>
+      <outfile xil_pn:name="MUX4v1.vhd"/>
+      <outfile xil_pn:name="ModeFsm.vhd"/>
+      <outfile xil_pn:name="Register.vhd"/>
+      <outfile xil_pn:name="SSDController.vhd"/>
+      <outfile xil_pn:name="SSDFSM.vhd"/>
+      <outfile xil_pn:name="Top.vhd"/>
+      <outfile xil_pn:name="and_gate.vhd"/>
+      <outfile xil_pn:name="behcounttest.vhd"/>
+      <outfile xil_pn:name="comparatorTest.vhd"/>
+      <outfile xil_pn:name="modefsmtest.vhd"/>
+      <outfile xil_pn:name="singlepulsegen.vhd"/>
+      <outfile xil_pn:name="testCounter.vhd"/>
+      <outfile xil_pn:name="testDecoder.vhd"/>
+      <outfile xil_pn:name="testMux32.vhd"/>
+      <outfile xil_pn:name="testReg.vhd"/>
+      <outfile xil_pn:name="testSSD.vhd"/>
+      <outfile xil_pn:name="testStack.vhd"/>
+      <outfile xil_pn:name="testTop.vhd"/>
+      <outfile xil_pn:name="testfsm.vhd"/>
+      <outfile xil_pn:name="testmux.vhd"/>
+      <outfile xil_pn:name="xnor_gate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1493823126" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3855650229484129559" xil_pn:start_ts="1493823126">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493823126" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-9069837469625831125" xil_pn:start_ts="1493823126">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1493823126" xil_pn:in_ck="-5112008002673713187" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1477777942548104866" xil_pn:start_ts="1493823126">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/STACK.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/STACK.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1493823126" xil_pn:in_ck="-5646187786434916997" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1493823126">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="AddFSMTest.vhd"/>
+      <outfile xil_pn:name="BehCounter.vhd"/>
+      <outfile xil_pn:name="COUNTER.vhd"/>
+      <outfile xil_pn:name="Coder.vhd"/>
+      <outfile xil_pn:name="Comparator_Equality.vhd"/>
+      <outfile xil_pn:name="Decoder.vhd"/>
+      <outfile xil_pn:name="FSM.vhd"/>
+      <outfile xil_pn:name="FSM1.vhd"/>
+      <outfile xil_pn:name="FSM2.vhd"/>
+      <outfile xil_pn:name="FlipFlop.vhd"/>
+      <outfile xil_pn:name="MUX.vhd"/>
+      <outfile xil_pn:name="MUX32x8.vhd"/>
+      <outfile xil_pn:name="MUX4v1.vhd"/>
+      <outfile xil_pn:name="ModeFsm.vhd"/>
+      <outfile xil_pn:name="Register.vhd"/>
+      <outfile xil_pn:name="SSDController.vhd"/>
+      <outfile xil_pn:name="SSDFSM.vhd"/>
+      <outfile xil_pn:name="Top.vhd"/>
+      <outfile xil_pn:name="and_gate.vhd"/>
+      <outfile xil_pn:name="behcounttest.vhd"/>
+      <outfile xil_pn:name="comparatorTest.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/STACK.vhd"/>
+      <outfile xil_pn:name="modefsmtest.vhd"/>
+      <outfile xil_pn:name="singlepulsegen.vhd"/>
+      <outfile xil_pn:name="testCounter.vhd"/>
+      <outfile xil_pn:name="testDecoder.vhd"/>
+      <outfile xil_pn:name="testMux32.vhd"/>
+      <outfile xil_pn:name="testReg.vhd"/>
+      <outfile xil_pn:name="testSSD.vhd"/>
+      <outfile xil_pn:name="testStack.vhd"/>
+      <outfile xil_pn:name="testTop.vhd"/>
+      <outfile xil_pn:name="testfsm.vhd"/>
+      <outfile xil_pn:name="testmux.vhd"/>
+      <outfile xil_pn:name="xnor_gate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1493823137" xil_pn:in_ck="-5646187786434916997" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2606549353879753908" xil_pn:start_ts="1493823126">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testTop_beh.prj"/>
+      <outfile xil_pn:name="testTop_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1493823137" xil_pn:in_ck="7138845803014366287" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2771676093214279489" xil_pn:start_ts="1493823137">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testTop_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1493365088" xil_pn:in_ck="-2675567424846563860" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1493365088">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

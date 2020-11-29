@@ -1,0 +1,7 @@
+vhdl work "C:\Xilinx\LABS\LAB3\lab3\SUM_SINGLE_UNIT.vhd"
+vhdl work "C:\Xilinx\LABS\LAB3\lab3\Generate_Propagate.vhd"
+vhdl work "C:\Xilinx\LABS\LAB3\lab3\SUM_UNIT.vhd"
+vhdl work "C:\Xilinx\LABS\LAB3\lab3\CLAU.vhd"
+vhdl work "C:\Xilinx\LABS\LAB3\lab3\CarryGPU.vhd"
+vhdl work "C:\Xilinx\LABS\LAB3\lab3\CLA.vhd"
+vhdl work "C:\Xilinx\LABS\LAB3\lab3\CLA8BIT.vhd"

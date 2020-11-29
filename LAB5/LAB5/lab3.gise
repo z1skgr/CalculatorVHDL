@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="AddFSMTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CLA8BIT.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CLA8BIT.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CLA8BIT.xst"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Demux4v1.spl"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Demux4v1.vhi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Top.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Top.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Top.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Top.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Top.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Top.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Top_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Top_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Top_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/STACK.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testASFsm_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testCLA_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testDemux_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testDemux_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testMplex_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testMultiplexer4v1_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testMux32_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testReg_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testSSD_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testTop_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testTop_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testTop_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testTop_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testUnaryOp_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testUnaryOp_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testUnaryOp_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1495024226" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1495024226">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495024226" xil_pn:in_ck="-4117532364907350630" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1495024226">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ASFsm.vhd"/>
+      <outfile xil_pn:name="AddFSMTest.vhd"/>
+      <outfile xil_pn:name="BehCounter.vhd"/>
+      <outfile xil_pn:name="CLA.vhd"/>
+      <outfile xil_pn:name="CLA8BIT.vhd"/>
+      <outfile xil_pn:name="CLAU.vhd"/>
+      <outfile xil_pn:name="COUNTER.vhd"/>
+      <outfile xil_pn:name="CarryGPU.vhd"/>
+      <outfile xil_pn:name="Coder.vhd"/>
+      <outfile xil_pn:name="Comparator_Equality.vhd"/>
+      <outfile xil_pn:name="Decoder.vhd"/>
+      <outfile xil_pn:name="FSM.vhd"/>
+      <outfile xil_pn:name="FSM1.vhd"/>
+      <outfile xil_pn:name="FSM2.vhd"/>
+      <outfile xil_pn:name="FlipFlop.vhd"/>
+      <outfile xil_pn:name="Generate_Propagate.vhd"/>
+      <outfile xil_pn:name="MUX.vhd"/>
+      <outfile xil_pn:name="MUX32x8.vhd"/>
+      <outfile xil_pn:name="MUX4v1.vhd"/>
+      <outfile xil_pn:name="ModeFsm.vhd"/>
+      <outfile xil_pn:name="Multiplexer2v1.vhd"/>
+      <outfile xil_pn:name="Multiplexer4v1.vhd"/>
+      <outfile xil_pn:name="Register.vhd"/>
+      <outfile xil_pn:name="SSDController.vhd"/>
+      <outfile xil_pn:name="SSDFSM.vhd"/>
+      <outfile xil_pn:name="SUM_SINGLE_UNIT.vhd"/>
+      <outfile xil_pn:name="SUM_UNIT.vhd"/>
+      <outfile xil_pn:name="SwapFSM.vhd"/>
+      <outfile xil_pn:name="Top.vhd"/>
+      <outfile xil_pn:name="UFsm.vhd"/>
+      <outfile xil_pn:name="UnaryOp.vhd"/>
+      <outfile xil_pn:name="and_gate.vhd"/>
+      <outfile xil_pn:name="behcounttest.vhd"/>
+      <outfile xil_pn:name="comparatorTest.vhd"/>
+      <outfile xil_pn:name="modefsmtest.vhd"/>
+      <outfile xil_pn:name="singlepulsegen.vhd"/>
+      <outfile xil_pn:name="testASFsm.vhd"/>
+      <outfile xil_pn:name="testCLA.vhd"/>
+      <outfile xil_pn:name="testCounter.vhd"/>
+      <outfile xil_pn:name="testDecoder.vhd"/>
+      <outfile xil_pn:name="testDemux.vhd"/>
+      <outfile xil_pn:name="testMplex.vhd"/>
+      <outfile xil_pn:name="testMultiplexer4v1.vhd"/>
+      <outfile xil_pn:name="testMux32.vhd"/>
+      <outfile xil_pn:name="testReg.vhd"/>
+      <outfile xil_pn:name="testSSD.vhd"/>
+      <outfile xil_pn:name="testStack.vhd"/>
+      <outfile xil_pn:name="testTop.vhd"/>
+      <outfile xil_pn:name="testUnaryOp.vhd"/>
+      <outfile xil_pn:name="testfsm.vhd"/>
+      <outfile xil_pn:name="testmux.vhd"/>
+      <outfile xil_pn:name="xnor_gate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1495024226" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3855650229484129559" xil_pn:start_ts="1495024226">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495024226" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-9069837469625831125" xil_pn:start_ts="1495024226">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495024226" xil_pn:in_ck="-5112008002673713187" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1477777942548104866" xil_pn:start_ts="1495024226">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/STACK.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/STACK.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1495024226" xil_pn:in_ck="-4117532364907350630" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1495024226">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ASFsm.vhd"/>
+      <outfile xil_pn:name="AddFSMTest.vhd"/>
+      <outfile xil_pn:name="BehCounter.vhd"/>
+      <outfile xil_pn:name="CLA.vhd"/>
+      <outfile xil_pn:name="CLA8BIT.vhd"/>
+      <outfile xil_pn:name="CLAU.vhd"/>
+      <outfile xil_pn:name="COUNTER.vhd"/>
+      <outfile xil_pn:name="CarryGPU.vhd"/>
+      <outfile xil_pn:name="Coder.vhd"/>
+      <outfile xil_pn:name="Comparator_Equality.vhd"/>
+      <outfile xil_pn:name="Decoder.vhd"/>
+      <outfile xil_pn:name="FSM.vhd"/>
+      <outfile xil_pn:name="FSM1.vhd"/>
+      <outfile xil_pn:name="FSM2.vhd"/>
+      <outfile xil_pn:name="FlipFlop.vhd"/>
+      <outfile xil_pn:name="Generate_Propagate.vhd"/>
+      <outfile xil_pn:name="MUX.vhd"/>
+      <outfile xil_pn:name="MUX32x8.vhd"/>
+      <outfile xil_pn:name="MUX4v1.vhd"/>
+      <outfile xil_pn:name="ModeFsm.vhd"/>
+      <outfile xil_pn:name="Multiplexer2v1.vhd"/>
+      <outfile xil_pn:name="Multiplexer4v1.vhd"/>
+      <outfile xil_pn:name="Register.vhd"/>
+      <outfile xil_pn:name="SSDController.vhd"/>
+      <outfile xil_pn:name="SSDFSM.vhd"/>
+      <outfile xil_pn:name="SUM_SINGLE_UNIT.vhd"/>
+      <outfile xil_pn:name="SUM_UNIT.vhd"/>
+      <outfile xil_pn:name="SwapFSM.vhd"/>
+      <outfile xil_pn:name="Top.vhd"/>
+      <outfile xil_pn:name="UFsm.vhd"/>
+      <outfile xil_pn:name="UnaryOp.vhd"/>
+      <outfile xil_pn:name="and_gate.vhd"/>
+      <outfile xil_pn:name="behcounttest.vhd"/>
+      <outfile xil_pn:name="comparatorTest.vhd"/>
+      <outfile xil_pn:name="modefsmtest.vhd"/>
+      <outfile xil_pn:name="singlepulsegen.vhd"/>
+      <outfile xil_pn:name="testASFsm.vhd"/>
+      <outfile xil_pn:name="testCLA.vhd"/>
+      <outfile xil_pn:name="testCounter.vhd"/>
+      <outfile xil_pn:name="testDecoder.vhd"/>
+      <outfile xil_pn:name="testDemux.vhd"/>
+      <outfile xil_pn:name="testMplex.vhd"/>
+      <outfile xil_pn:name="testMultiplexer4v1.vhd"/>
+      <outfile xil_pn:name="testMux32.vhd"/>
+      <outfile xil_pn:name="testReg.vhd"/>
+      <outfile xil_pn:name="testSSD.vhd"/>
+      <outfile xil_pn:name="testStack.vhd"/>
+      <outfile xil_pn:name="testTop.vhd"/>
+      <outfile xil_pn:name="testUnaryOp.vhd"/>
+      <outfile xil_pn:name="testfsm.vhd"/>
+      <outfile xil_pn:name="testmux.vhd"/>
+      <outfile xil_pn:name="xnor_gate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1495024236" xil_pn:in_ck="6299900133767427343" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2606549353879753908" xil_pn:start_ts="1495024226">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="testTop_beh.prj"/>
+      <outfile xil_pn:name="testTop_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1495024236" xil_pn:in_ck="8535860347262749957" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2771676093214279489" xil_pn:start_ts="1495024236">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="testTop_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329628" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1494329628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329628" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6406608389723963144" xil_pn:start_ts="1494329628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329628" xil_pn:in_ck="-5112008002673713187" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1477777942548104866" xil_pn:start_ts="1494329628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/STACK.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/STACK.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329628" xil_pn:in_ck="-2675567424846563860" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1494329628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329628" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1507094605089005706" xil_pn:start_ts="1494329628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329628" xil_pn:in_ck="-2675567424846563860" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1494329628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329628" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6840410370610745620" xil_pn:start_ts="1494329628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329637" xil_pn:in_ck="2774314526454986090" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8567289518031657857" xil_pn:start_ts="1494329628">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329637" xil_pn:in_ck="121042030933914060" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2156804912788654357" xil_pn:start_ts="1494329637">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1494329643" xil_pn:in_ck="-3114632859190304976" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8219132139446741585" xil_pn:start_ts="1494329637">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

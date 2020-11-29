@@ -1,0 +1,21 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Xilinx/LABS/lab1_2/test1_2_isim_beh.exe -prj C:/Xilinx/LABS/lab1_2/test1_2_beh.prj work.test1_2 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx/LABS/lab1_2/Half_Adder.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/lab1_2/Full_Adder.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/lab1_2/test1_2.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Half_Adder [half_adder_default]
+Compiling architecture behavioral of entity Full_Adder [full_adder_default]
+Compiling architecture behavior of entity test1_2
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable C:/Xilinx/LABS/lab1_2/test1_2_isim_beh.exe
+Fuse Memory Usage: 29396 KB
+Fuse CPU Usage: 1749 ms

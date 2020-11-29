@@ -1,0 +1,12 @@
+V3 7
+FL C:/Xilinx/LABS/lab1_2/Full_Adder.vhd 2017/02/25.23:02:00 O.87xd
+EN work/Full_Adder 1488057065 FL C:/Xilinx/LABS/lab1_2/Full_Adder.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Full_Adder/Behavioral 1488057066 \
+      FL C:/Xilinx/LABS/lab1_2/Full_Adder.vhd EN work/Full_Adder 1488057065 \
+      CP Half_Adder
+FL C:/Xilinx/LABS/lab1_2/Half_Adder.vhd 2017/02/25.22:43:54 O.87xd
+EN work/Half_Adder 1488057063 FL C:/Xilinx/LABS/lab1_2/Half_Adder.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Half_Adder/Behavioral 1488057064 \
+      FL C:/Xilinx/LABS/lab1_2/Half_Adder.vhd EN work/Half_Adder 1488057063

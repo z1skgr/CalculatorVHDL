@@ -1,0 +1,12 @@
+[Inputs]
+Push
+Pop
+Mode
+Reset
+Clock
+=NUMIN[7:0]=
+[Outputs]
+=NUMOUT[7:0]=
+=SSD_EN[3:0]=
+=SSD[7:0]=
+[BiDir]

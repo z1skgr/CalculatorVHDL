@@ -1,0 +1,95 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Xilinx/LABS/LAB3/lab3/testTop_isim_beh.exe -prj C:/Xilinx/LABS/LAB3/lab3/testTop_beh.prj work.testTop 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/ipcore_dir/STACK.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/SUM_SINGLE_UNIT.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/Generate_Propagate.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/SUM_UNIT.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/CLAU.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/CarryGPU.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/MUX.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/CLA.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/xnor_gate.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/SSDFSM.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/MUX4v1.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/MUX32x8.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/FlipFlop.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/Decoder.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/Coder.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/CLA8BIT.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/BehCounter.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/and_gate.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/UnaryOp.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/UFsm.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/SwapFSM.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/SSDController.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/singlepulsegen.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/Register.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/Multiplexer4v1.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/Multiplexer2v1.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/ModeFsm.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/FSM2.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/FSM1.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/FSM.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/COUNTER.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/Comparator_Equality.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/ASFsm.vhd" into library work
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/Top.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Xilinx/LABS/LAB3/lab3/Top.vhd" Line 245: Actual for formal port input is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Xilinx/LABS/LAB3/lab3/Top.vhd" Line 246: Actual for formal port input is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Xilinx/LABS/LAB3/lab3/Top.vhd" Line 247: Actual for formal port input is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Xilinx/LABS/LAB3/lab3/Top.vhd" Line 248: Actual for formal port input is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Xilinx/LABS/LAB3/lab3/Top.vhd" Line 284: Actual for formal port sign is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Xilinx/LABS/LAB3/lab3/testTop.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Coder [coder_default]
+Compiling architecture behavioral of entity SwapFSM [swapfsm_default]
+Compiling architecture behavioral of entity Multiplexer4v1 [multiplexer4v1_default]
+Compiling architecture behavioral of entity UFsm [ufsm_default]
+Compiling architecture behavioral of entity Multiplexer2v1 [multiplexer2v1_default]
+Compiling architecture behavioral of entity Generate_Propagate [generate_propagate_default]
+Compiling architecture behavioral of entity CarryGPU [carrygpu_default]
+Compiling architecture behavioral of entity CLAU [clau_default]
+Compiling architecture behavioral of entity SUM_SINGLE_UNIT [sum_single_unit_default]
+Compiling architecture behavioral of entity SUM_UNIT [sum_unit_default]
+Compiling architecture behavioral of entity CLA [cla_default]
+Compiling architecture behavioral of entity CLA8BIT [cla8bit_default]
+Compiling architecture behavioral of entity UnaryOp [unaryop_default]
+Compiling architecture behavioral of entity Reg [reg_default]
+Compiling architecture behavioral of entity ASFsm [asfsm_default]
+Compiling architecture behavioral of entity singlepulsegen [singlepulsegen_default]
+Compiling architecture behavioral of entity FSM0 [fsm0_default]
+Compiling architecture behavioral of entity FSM1 [fsm1_default]
+Compiling architecture behavioral of entity FSM2 [fsm2_default]
+Compiling architecture behavioral of entity ModeFsm [modefsm_default]
+Compiling package numeric_std
+Compiling package textio
+Compiling architecture behavioral of entity dist_mem_gen_v6_3 [\dist_mem_gen_v6_3("spartan3",5,...]
+Compiling architecture stack_a of entity STACK [stack_default]
+Compiling architecture behavioral of entity MUX2v1 [mux2v1_default]
+Compiling architecture behavioral of entity MUX4v1 [mux4v1_default]
+Compiling architecture behavioral of entity FlipFlop [flipflop_default]
+Compiling architecture behavioral of entity COUNTER [counter_default]
+Compiling architecture behavioral of entity xnor_gate [xnor_gate_default]
+Compiling architecture behavioral of entity and_gate [and_gate_default]
+Compiling architecture behavioral of entity Comparator_Equality [comparator_equality_default]
+Compiling architecture behavioral of entity BehCounter [behcounter_default]
+Compiling architecture behavioral of entity SSDFSM [ssdfsm_default]
+Compiling architecture behavioral of entity MUX32x8 [mux32x8_default]
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity SSDController [ssdcontroller_default]
+Compiling architecture behavioral of entity Top [top_default]
+Compiling architecture behavior of entity testtop
+Time Resolution for simulation is 1ps.
+Waiting for 24 sub-compilation(s) to finish...
+Compiled 77 VHDL Units
+Built simulation executable C:/Xilinx/LABS/LAB3/lab3/testTop_isim_beh.exe
+Fuse Memory Usage: 38864 KB
+Fuse CPU Usage: 1686 ms

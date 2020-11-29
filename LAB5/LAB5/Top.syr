@@ -1,0 +1,911 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/MUX.vhd" in Library work.
+Entity <MUX2v1> compiled.
+Entity <MUX2v1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/BehCounter.vhd" in Library work.
+Entity <BehCounter> compiled.
+Entity <BehCounter> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/SSDFSM.vhd" in Library work.
+Entity <SSDFSM> compiled.
+Entity <SSDFSM> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/MUX32x8.vhd" in Library work.
+Entity <MUX32x8> compiled.
+Entity <MUX32x8> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/Decoder.vhd" in Library work.
+Entity <Decoder> compiled.
+Entity <Decoder> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/Coder.vhd" in Library work.
+Entity <Coder> compiled.
+Entity <Coder> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/xnor_gate.vhd" in Library work.
+Entity <xnor_gate> compiled.
+Entity <xnor_gate> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/and_gate.vhd" in Library work.
+Entity <and_gate> compiled.
+Entity <and_gate> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/MUX4v1.vhd" in Library work.
+Entity <MUX4v1> compiled.
+Entity <MUX4v1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/FlipFlop.vhd" in Library work.
+Entity <FlipFlop> compiled.
+Entity <FlipFlop> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/singlepulsegen.vhd" in Library work.
+Entity <singlepulsegen> compiled.
+Entity <singlepulsegen> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/FSM.vhd" in Library work.
+Entity <FSM0> compiled.
+Entity <FSM0> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/FSM1.vhd" in Library work.
+Entity <FSM1> compiled.
+Entity <FSM1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/FSM2.vhd" in Library work.
+Entity <FSM2> compiled.
+Entity <FSM2> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/ModeFsm.vhd" in Library work.
+Entity <ModeFsm> compiled.
+Entity <ModeFsm> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/ipcore_dir/STACK.vhd" in Library work.
+Entity <STACK> compiled.
+Entity <STACK> (Architecture <STACK_a>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/COUNTER.vhd" in Library work.
+Entity <COUNTER> compiled.
+Entity <COUNTER> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/Comparator_Equality.vhd" in Library work.
+Entity <Comparator_Equality> compiled.
+Entity <Comparator_Equality> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/SSDController.vhd" in Library work.
+Entity <SSDController> compiled.
+Entity <SSDController> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/Top.vhd" in Library work.
+Entity <Top> compiled.
+Entity <Top> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Top> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <singlepulsegen> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FSM0> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <FSM1> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <FSM2> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ModeFsm> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <COUNTER> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Comparator_Equality> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SSDController> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <MUX4v1> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <FlipFlop> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <xnor_gate> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <BehCounter> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <SSDFSM> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <MUX32x8> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Decoder> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Coder> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <MUX2v1> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Top> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:2211 - "C:/Xilinx/LABS/LAB3/lab3/Top.vhd" line 214: Instantiating black box module <STACK>.
+Entity <Top> analyzed. Unit <Top> generated.
+
+Analyzing Entity <singlepulsegen> in library <work> (Architecture <behavioral>).
+Entity <singlepulsegen> analyzed. Unit <singlepulsegen> generated.
+
+Analyzing Entity <FSM0> in library <work> (Architecture <Behavioral>).
+Entity <FSM0> analyzed. Unit <FSM0> generated.
+
+Analyzing Entity <FSM1> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "C:/Xilinx/LABS/LAB3/lab3/FSM1.vhd" line 47: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <ModeEn>
+Entity <FSM1> analyzed. Unit <FSM1> generated.
+
+Analyzing Entity <FSM2> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "C:/Xilinx/LABS/LAB3/lab3/FSM2.vhd" line 47: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <ModeEn>
+Entity <FSM2> analyzed. Unit <FSM2> generated.
+
+Analyzing Entity <ModeFsm> in library <work> (Architecture <Behavioral>).
+Entity <ModeFsm> analyzed. Unit <ModeFsm> generated.
+
+Analyzing Entity <COUNTER> in library <work> (Architecture <Behavioral>).
+Entity <COUNTER> analyzed. Unit <COUNTER> generated.
+
+Analyzing Entity <MUX4v1> in library <work> (Architecture <Behavioral>).
+Entity <MUX4v1> analyzed. Unit <MUX4v1> generated.
+
+Analyzing Entity <MUX2v1> in library <work> (Architecture <Behavioral>).
+Entity <MUX2v1> analyzed. Unit <MUX2v1> generated.
+
+Analyzing Entity <FlipFlop> in library <work> (Architecture <Behavioral>).
+Entity <FlipFlop> analyzed. Unit <FlipFlop> generated.
+
+Analyzing Entity <Comparator_Equality> in library <work> (Architecture <Behavioral>).
+Entity <Comparator_Equality> analyzed. Unit <Comparator_Equality> generated.
+
+Analyzing Entity <xnor_gate> in library <work> (Architecture <Behavioral>).
+Entity <xnor_gate> analyzed. Unit <xnor_gate> generated.
+
+Analyzing Entity <and_gate> in library <work> (Architecture <Behavioral>).
+Entity <and_gate> analyzed. Unit <and_gate> generated.
+
+Analyzing Entity <SSDController> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:753 - "C:/Xilinx/LABS/LAB3/lab3/SSDController.vhd" line 97: Unconnected output port 'oo' of component 'BehCounter'.
+Entity <SSDController> analyzed. Unit <SSDController> generated.
+
+Analyzing Entity <BehCounter> in library <work> (Architecture <Behavioral>).
+Entity <BehCounter> analyzed. Unit <BehCounter> generated.
+
+Analyzing Entity <SSDFSM> in library <work> (Architecture <Behavioral>).
+Entity <SSDFSM> analyzed. Unit <SSDFSM> generated.
+
+Analyzing Entity <MUX32x8> in library <work> (Architecture <Behavioral>).
+Entity <MUX32x8> analyzed. Unit <MUX32x8> generated.
+
+Analyzing Entity <Decoder> in library <work> (Architecture <Behavioral>).
+Entity <Decoder> analyzed. Unit <Decoder> generated.
+
+Analyzing Entity <Coder> in library <work> (Architecture <Behavioral>).
+Entity <Coder> analyzed. Unit <Coder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <singlepulsegen>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/singlepulsegen.vhd".
+    Found finite state machine <FSM_0> for signal <currentS>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <singlepulsegen> synthesized.
+
+
+Synthesizing Unit <FSM0>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/FSM.vhd".
+WARNING:Xst:647 - Input <ModeEn> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Using one-hot encoding for signal <currentS>.
+WARNING:Xst:737 - Found 5-bit latch for signal <nextS>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-bit register for signal <LOAD>.
+    Found 5-bit register for signal <currentS>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FSM0> synthesized.
+
+
+Synthesizing Unit <FSM1>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/FSM1.vhd".
+    Found finite state machine <FSM_1> for signal <currentS>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | dn                                             |
+    | Power Up State     | adds                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 1-bit latch for signal <SubSig>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <AddSig>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <FSM1> synthesized.
+
+
+Synthesizing Unit <FSM2>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/FSM2.vhd".
+    Found finite state machine <FSM_2> for signal <currentS>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | dn                                             |
+    | Power Up State     | unarysubs                                      |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 1-bit latch for signal <UnarySubSig>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <SwapSig>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <FSM2> synthesized.
+
+
+Synthesizing Unit <ModeFsm>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/ModeFsm.vhd".
+    Found finite state machine <FSM_3> for signal <currentS>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | Clock                     (rising_edge)        |
+    | Reset              | Reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | mode0                                          |
+    | Power Up State     | mode0                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ModeFsm> synthesized.
+
+
+Synthesizing Unit <FlipFlop>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/FlipFlop.vhd".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FlipFlop> synthesized.
+
+
+Synthesizing Unit <MUX2v1>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/MUX.vhd".
+Unit <MUX2v1> synthesized.
+
+
+Synthesizing Unit <xnor_gate>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/xnor_gate.vhd".
+    Found 1-bit xor2 for signal <Y1$xor0000>.
+Unit <xnor_gate> synthesized.
+
+
+Synthesizing Unit <and_gate>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/and_gate.vhd".
+Unit <and_gate> synthesized.
+
+
+Synthesizing Unit <BehCounter>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/BehCounter.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <Q> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <Q>.
+    Found 32-bit up counter for signal <outs>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <BehCounter> synthesized.
+
+
+Synthesizing Unit <SSDFSM>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/SSDFSM.vhd".
+    Found finite state machine <FSM_4> for signal <currentS>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 4                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | a                                              |
+    | Power Up State     | a                                              |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <SSDFSM> synthesized.
+
+
+Synthesizing Unit <MUX32x8>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/MUX32x8.vhd".
+    Found 8-bit 4-to-1 multiplexer for signal <OUTPUT>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <MUX32x8> synthesized.
+
+
+Synthesizing Unit <Decoder>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/Decoder.vhd".
+Unit <Decoder> synthesized.
+
+
+Synthesizing Unit <Coder>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/Coder.vhd".
+Unit <Coder> synthesized.
+
+
+Synthesizing Unit <Comparator_Equality>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/Comparator_Equality.vhd".
+Unit <Comparator_Equality> synthesized.
+
+
+Synthesizing Unit <SSDController>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/SSDController.vhd".
+Unit <SSDController> synthesized.
+
+
+Synthesizing Unit <MUX4v1>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/MUX4v1.vhd".
+Unit <MUX4v1> synthesized.
+
+
+Synthesizing Unit <COUNTER>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/COUNTER.vhd".
+Unit <COUNTER> synthesized.
+
+
+Synthesizing Unit <Top>.
+    Related source file is "C:/Xilinx/LABS/LAB3/lab3/Top.vhd".
+WARNING:Xst:646 - Signal <out_tosm1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <StackPointer> is used but never assigned. This sourceless signal will be automatically connected to value 00000.
+Unit <Top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 13
+ 1-bit register                                        : 12
+ 5-bit register                                        : 1
+# Latches                                              : 5
+ 1-bit latch                                           : 4
+ 5-bit latch                                           : 1
+# Multiplexers                                         : 8
+ 1-bit 4-to-1 multiplexer                              : 8
+# Xors                                                 : 10
+ 1-bit xor2                                            : 10
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_4> for best encoding.
+Optimizing FSM <ssdControl/TheFSM/currentS/FSM> on signal <currentS[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ a     | 00
+ b     | 01
+ c     | 11
+ d     | 10
+-------------------
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <ModeController/currentS/FSM> on signal <currentS[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ mode0 | 00
+ mode1 | 01
+ mode2 | 10
+-------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <FSM_M2/currentS/FSM> on signal <currentS[1:2]> with user encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ unarysubs | 00
+ swaps     | 01
+ dn        | 10
+-----------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <FSM_M1/currentS/FSM> on signal <currentS[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ adds  | 00
+ subs  | 01
+ dn    | 10
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <SPG0/currentS/FSM> on signal <currentS[1:3]> with one-hot encoding.
+Optimizing FSM <SPG1/currentS/FSM> on signal <currentS[1:3]> with one-hot encoding.
+Optimizing FSM <SPG2/currentS/FSM> on signal <currentS[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 001
+ s1    | 010
+ s2    | 100
+-------------------
+Reading core <ipcore_dir/STACK.ngc>.
+Loading core <STACK> for timing and area information for instance <myStack>.
+WARNING:Xst:1290 - Hierarchical block <Counter1> is unconnected in block <Top>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <MUX2> is unconnected in block <M1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <MUX2> is unconnected in block <M2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <MUX2> is unconnected in block <M3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <MUX2> is unconnected in block <M4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <MUX2> is unconnected in block <M5>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 5
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 17
+ Flip-Flops                                            : 17
+# Latches                                              : 5
+ 1-bit latch                                           : 4
+ 5-bit latch                                           : 1
+# Multiplexers                                         : 8
+ 1-bit 4-to-1 multiplexer                              : 8
+# Xors                                                 : 10
+ 1-bit xor2                                            : 10
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Top> ...
+
+Optimizing unit <MUX32x8> ...
+
+Optimizing unit <FSM0> ...
+
+Optimizing unit <COUNTER> ...
+WARNING:Xst:2677 - Node <Counter1/F1/Q> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <Counter1/F2/Q> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <Counter1/F3/Q> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <Counter1/F4/Q> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <Counter1/F5/Q> of sequential type is unconnected in block <Top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 7.
+FlipFlop Counter2/F2/Q has been replicated 1 time(s)
+FlipFlop Counter2/F3/Q has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 60
+ Flip-Flops                                            : 60
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Top.ngr
+Top Level Output File Name         : Top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 33
+
+Cell Usage :
+# BELS                             : 193
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 31
+#      LUT2                        : 21
+#      LUT3                        : 16
+#      LUT3_L                      : 2
+#      LUT4                        : 35
+#      LUT4_L                      : 1
+#      MUXCY                       : 39
+#      MUXF5                       : 12
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 77
+#      FD                          : 15
+#      FDC                         : 42
+#      FDCE                        : 4
+#      FDCP                        : 1
+#      FDP                         : 6
+#      LD                          : 5
+#      LD_1                        : 4
+# RAMS                             : 8
+#      RAM32X1S                    : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 32
+#      IBUF                        : 12
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       66  out of    960     6%  
+ Number of Slice Flip Flops:             77  out of   1920     4%  
+ Number of 4 input LUTs:                124  out of   1920     6%  
+    Number used as logic:               108
+    Number used as RAMs:                 16
+ Number of IOs:                          33
+ Number of bonded IOBs:                  33  out of     83    39%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------------------------+----------------------------+-------+
+Clock Signal                                             | Clock buffer(FF name)      | Load  |
+---------------------------------------------------------+----------------------------+-------+
+Clock                                                    | BUFGP                      | 76    |
+FSM_M1/SubSig_and0000(FSM_M1/SubSig_and00001:O)          | NONE(*)(FSM_M1/SubSig)     | 2     |
+FSM_M2/UnarySubSig_and0000(FSM_M2/UnarySubSig_and00001:O)| NONE(*)(FSM_M2/UnarySubSig)| 2     |
+FSM_M0/nextS_not0001(FSM_M0/nextS_not00011:O)            | NONE(*)(FSM_M0/nextS_4)    | 5     |
+---------------------------------------------------------+----------------------------+-------+
+(*) These 3 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------------------+------------------------------+-------+
+Control Signal                                                         | Buffer(FF name)              | Load  |
+-----------------------------------------------------------------------+------------------------------+-------+
+ssdControl/count/outs_or0000(ssdControl/count/outs_or00001:O)          | NONE(ssdControl/count/outs_0)| 32    |
+Reset                                                                  | IBUF                         | 20    |
+ssdControl/count/Q_and0000(ssdControl/count/Q_and00001:O)              | NONE(ssdControl/count/Q)     | 1     |
+ssdControl/count/Q_cmp_eq0000(ssdControl/count/Q_cmp_eq0000_wg_cy<7>:O)| NONE(ssdControl/count/Q)     | 1     |
+-----------------------------------------------------------------------+------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.522ns (Maximum Frequency: 221.119MHz)
+   Minimum input arrival time before clock: 2.518ns
+   Maximum output required time after clock: 10.013ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock'
+  Clock period: 4.522ns (frequency: 221.119MHz)
+  Total number of paths / destination ports: 709 / 113
+-------------------------------------------------------------------------
+Delay:               4.522ns (Levels of Logic = 32)
+  Source:            ssdControl/count/outs_1 (FF)
+  Destination:       ssdControl/count/outs_31 (FF)
+  Source Clock:      Clock rising
+  Destination Clock: Clock rising
+
+  Data Path: ssdControl/count/outs_1 to ssdControl/count/outs_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.532  ssdControl/count/outs_1 (ssdControl/count/outs_1)
+     LUT1:I0->O            1   0.612   0.000  ssdControl/count/Mcount_outs_cy<1>_rt (ssdControl/count/Mcount_outs_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  ssdControl/count/Mcount_outs_cy<1> (ssdControl/count/Mcount_outs_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  ssdControl/count/Mcount_outs_cy<2> (ssdControl/count/Mcount_outs_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  ssdControl/count/Mcount_outs_cy<3> (ssdControl/count/Mcount_outs_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  ssdControl/count/Mcount_outs_cy<4> (ssdControl/count/Mcount_outs_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  ssdControl/count/Mcount_outs_cy<5> (ssdControl/count/Mcount_outs_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  ssdControl/count/Mcount_outs_cy<6> (ssdControl/count/Mcount_outs_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  ssdControl/count/Mcount_outs_cy<7> (ssdControl/count/Mcount_outs_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  ssdControl/count/Mcount_outs_cy<8> (ssdControl/count/Mcount_outs_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  ssdControl/count/Mcount_outs_cy<9> (ssdControl/count/Mcount_outs_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  ssdControl/count/Mcount_outs_cy<10> (ssdControl/count/Mcount_outs_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<11> (ssdControl/count/Mcount_outs_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<12> (ssdControl/count/Mcount_outs_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<13> (ssdControl/count/Mcount_outs_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<14> (ssdControl/count/Mcount_outs_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<15> (ssdControl/count/Mcount_outs_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<16> (ssdControl/count/Mcount_outs_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<17> (ssdControl/count/Mcount_outs_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<18> (ssdControl/count/Mcount_outs_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<19> (ssdControl/count/Mcount_outs_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<20> (ssdControl/count/Mcount_outs_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<21> (ssdControl/count/Mcount_outs_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<22> (ssdControl/count/Mcount_outs_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<23> (ssdControl/count/Mcount_outs_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<24> (ssdControl/count/Mcount_outs_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<25> (ssdControl/count/Mcount_outs_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<26> (ssdControl/count/Mcount_outs_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<27> (ssdControl/count/Mcount_outs_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<28> (ssdControl/count/Mcount_outs_cy<28>)
+     MUXCY:CI->O           1   0.051   0.000  ssdControl/count/Mcount_outs_cy<29> (ssdControl/count/Mcount_outs_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  ssdControl/count/Mcount_outs_cy<30> (ssdControl/count/Mcount_outs_cy<30>)
+     XORCY:CI->O           1   0.699   0.000  ssdControl/count/Mcount_outs_xor<31> (Result<31>)
+     FDC:D                     0.268          ssdControl/count/outs_31
+    ----------------------------------------
+    Total                      4.522ns (3.991ns logic, 0.532ns route)
+                                       (88.2% logic, 11.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              2.518ns (Levels of Logic = 2)
+  Source:            Mode (PAD)
+  Destination:       SPG2/currentS_FSM_FFd3 (FF)
+  Destination Clock: Clock rising
+
+  Data Path: Mode to SPG2/currentS_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  Mode_IBUF (Mode_IBUF)
+     LUT2:I0->O            1   0.612   0.000  SPG2/currentS_FSM_FFd3-In1 (SPG2/currentS_FSM_FFd3-In)
+     FDP:D                     0.268          SPG2/currentS_FSM_FFd3
+    ----------------------------------------
+    Total                      2.518ns (1.986ns logic, 0.532ns route)
+                                       (78.9% logic, 21.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
+  Total number of paths / destination ports: 257 / 19
+-------------------------------------------------------------------------
+Offset:              10.013ns (Levels of Logic = 7)
+  Source:            Counter2/F4/Q (FF)
+  Destination:       SSD<3> (PAD)
+  Source Clock:      Clock rising
+
+  Data Path: Counter2/F4/Q to SSD<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              36   0.514   1.226  Counter2/F4/Q (Counter2/F4/Q)
+     LUT4:I0->O            1   0.612   0.000  EmptyComparator/gate_and4/Y11 (EmptyComparator/gate_and4/Y1)
+     MUXF5:I0->O           6   0.278   0.572  EmptyComparator/gate_and4/Y1_f5 (EmptySignal)
+     LUT4:I3->O            4   0.612   0.568  ssdControl/myDecoder/segmentLED<11>1 (ssdControl/muxInPipe<10>)
+     LUT4:I1->O            3   0.612   0.603  ssdControl/Mux/Mmux_OUTPUT<2>321 (ssdControl/Mux/N3)
+     LUT4:I0->O            1   0.612   0.000  ssdControl/Mux/Mmux_OUTPUT<3>31 (ssdControl/Mux/Mmux_OUTPUT<3>3)
+     MUXF5:I1->O           1   0.278   0.357  ssdControl/Mux/Mmux_OUTPUT<3>3_f5 (SSD_3_OBUF)
+     OBUF:I->O                 3.169          SSD_3_OBUF (SSD<3>)
+    ----------------------------------------
+    Total                     10.013ns (6.687ns logic, 3.326ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FSM_M2/UnarySubSig_and0000'
+  Total number of paths / destination ports: 16 / 6
+-------------------------------------------------------------------------
+Offset:              7.183ns (Levels of Logic = 5)
+  Source:            FSM_M2/UnarySubSig (LATCH)
+  Destination:       SSD<7> (PAD)
+  Source Clock:      FSM_M2/UnarySubSig_and0000 rising
+
+  Data Path: FSM_M2/UnarySubSig to SSD<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD_1:G->Q             6   0.588   0.721  FSM_M2/UnarySubSig (FSM_M2/UnarySubSig)
+     LUT3:I0->O            1   0.612   0.000  ssdControl/myDecoder/segmentLED<21>_G (N62)
+     MUXF5:I1->O           4   0.278   0.568  ssdControl/myDecoder/segmentLED<21> (ssdControl/muxInPipe<20>)
+     LUT3:I1->O            1   0.612   0.000  ssdControl/Mux/Mmux_OUTPUT<7>22 (ssdControl/Mux/Mmux_OUTPUT<7>21)
+     MUXF5:I0->O           1   0.278   0.357  ssdControl/Mux/Mmux_OUTPUT<7>2_f5 (SSD_7_OBUF)
+     OBUF:I->O                 3.169          SSD_7_OBUF (SSD<7>)
+    ----------------------------------------
+    Total                      7.183ns (5.537ns logic, 1.646ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FSM_M1/SubSig_and0000'
+  Total number of paths / destination ports: 11 / 6
+-------------------------------------------------------------------------
+Offset:              7.508ns (Levels of Logic = 4)
+  Source:            FSM_M1/AddSig (LATCH)
+  Destination:       SSD<2> (PAD)
+  Source Clock:      FSM_M1/SubSig_and0000 rising
+
+  Data Path: FSM_M1/AddSig to SSD<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD_1:G->Q             4   0.588   0.568  FSM_M1/AddSig (FSM_M1/AddSig)
+     LUT4:I1->O            3   0.612   0.603  ssdControl/myDecoder/segmentLED<25>21 (N11)
+     LUT4:I0->O            1   0.612   0.387  ssdControl/Mux/Mmux_OUTPUT<2>327_SW0 (N57)
+     LUT4:I2->O            1   0.612   0.357  ssdControl/Mux/Mmux_OUTPUT<2>327 (SSD_2_OBUF)
+     OBUF:I->O                 3.169          SSD_2_OBUF (SSD<2>)
+    ----------------------------------------
+    Total                      7.508ns (5.593ns logic, 1.915ns route)
+                                       (74.5% logic, 25.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.72 secs
+ 
+--> 
+
+Total memory usage is 254872 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   23 (   0 filtered)
+Number of infos    :    7 (   0 filtered)
+

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Xilinx/LABS/lab1_1/circuit1.xst" -ofn "C:/Xilinx/LABS/lab1_1/circuit1.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/LABS/lab1_1/circuit1.xst" -ofn "C:/Xilinx/LABS/lab1_1/circuit1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 circuit1.ngc circuit1.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o circuit1_map.ncd circuit1.ngd circuit1.pcf 
+par -w -intstyle ise -ol high -t 1 circuit1_map.ncd circuit1.ncd circuit1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuit1.twx circuit1.ncd -o circuit1.twr circuit1.pcf 
+bitgen -intstyle ise -f circuit1.ut circuit1.ncd 

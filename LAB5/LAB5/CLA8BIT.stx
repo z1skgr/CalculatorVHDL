@@ -1,0 +1,51 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Xilinx/LABS/LAB3/lab3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to C:/Xilinx/LABS/LAB3/lab3/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.33 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/SUM_SINGLE_UNIT.vhd" in Library work.
+Entity <SUM_SINGLE_UNIT> compiled.
+Entity <SUM_SINGLE_UNIT> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/Generate_Propagate.vhd" in Library work.
+Entity <Generate_Propagate> compiled.
+Entity <Generate_Propagate> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/CarryGPU.vhd" in Library work.
+Entity <CarryGPU> compiled.
+Entity <CarryGPU> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/CLAU.vhd" in Library work.
+Entity <CLAU> compiled.
+Entity <CLAU> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/SUM_UNIT.vhd" in Library work.
+Entity <SUM_UNIT> compiled.
+Entity <SUM_UNIT> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/LABS/LAB3/lab3/CLA.vhd" in Library work.
+Entity <CLA> compiled.
+ERROR:HDLParsers:3312 - "C:/Xilinx/LABS/LAB3/lab3/CLA.vhd" Line 76. Undefined symbol 'C'.
+ERROR:HDLParsers:1209 - "C:/Xilinx/LABS/LAB3/lab3/CLA.vhd" Line 76. C: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.41 secs
+ 
+--> 
+
+Total memory usage is 228456 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
