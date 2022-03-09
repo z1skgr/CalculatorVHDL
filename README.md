@@ -39,7 +39,8 @@ LED[5] <= IN1
 | IN2 | IN | 1 | SW2 |
 | LED | OUT | 2 | LD0 - LD1 |
 
-
+[HA](https://github.com/z1skgr/Advanced-Design/issues/2#issue-1164229190)
+[FA]()
 
 ## Bit CLA and FSM
 ## Post increment Pre decrement Stack
