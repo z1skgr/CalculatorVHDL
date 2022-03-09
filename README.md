@@ -12,7 +12,7 @@
 * [Acknowledgments](#acknowledgments)
 
 ## Half Adder design
-### C1
+### Circuit
 | Name |  In/Out  |  Width  | Board |
 | ------- | --- | --- | --- |
 | IN0 | IN | 1 | SW0 |
@@ -23,14 +23,21 @@
 | BTN3 | IN | 1 | BTN3|
 | LED | OUT | 8 | LD0 - LD7 |
 
-LED[0] <= IN0 AND IN1 FOR BTN0
-LED[1] <= IN0 XOR IN1 FOR BTN1
-LED[2] <= IN0 NOR IN1 FOR BTN2
-LED[3] <= NOT IN0 FOR BTN3
+LED[0] <= IN0 AND IN1 AND BTN0
+LED[1] <= IN0 XOR IN1 AND BTN1
+LED[2] <= IN0 NOR IN1 AND BTN2
+LED[3] <= NOT IN0 AND BTN3
 LED[4] <= IN0
 LED[5] <= IN1
 
-### C2
+### HA
+
+| Name |  In/Out  |  Width  | Board |
+| ------- | --- | --- | --- |
+| IN0 | IN | 1 | SW0 |
+| IN1 | IN | 1 | SW1 |
+| IN2 | IN | 1 | SW2 |
+| LED | OUT | 2 | LD0 - LD1 |
 
 ## Bit CLA and FSM
 ## Post increment Pre decrement Stack
