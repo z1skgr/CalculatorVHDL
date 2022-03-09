@@ -30,14 +30,16 @@ LED[3] <= NOT IN0 AND BTN3
 LED[4] <= IN0
 LED[5] <= IN1
 
-### HA
-
+### FA
+#### HA
 | Name |  In/Out  |  Width  | Board |
 | ------- | --- | --- | --- |
 | IN0 | IN | 1 | SW0 |
 | IN1 | IN | 1 | SW1 |
 | IN2 | IN | 1 | SW2 |
 | LED | OUT | 2 | LD0 - LD1 |
+
+
 
 ## Bit CLA and FSM
 ## Post increment Pre decrement Stack
