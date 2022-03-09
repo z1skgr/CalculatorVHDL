@@ -23,14 +23,15 @@
 | BTN3 | IN | 1 | BTN3|
 | LED | OUT | 8 | LD0 - LD7 |
 
-LED[0] <= IN0 AND IN1 AND BTN0
-LED[1] <= IN0 XOR IN1 AND BTN1
-LED[2] <= IN0 NOR IN1 AND BTN2
-LED[3] <= NOT IN0 AND BTN3
-LED[4] <= IN0
-LED[5] <= IN1
+* LED[0] <= IN0 AND IN1 AND BTN0
+* LED[1] <= IN0 XOR IN1 AND BTN1
+* LED[2] <= IN0 NOR IN1 AND BTN2
+* LED[3] <= NOT IN0 AND BTN3
+* LED[4] <= IN0
+* LED[5] <= IN1
 
 ### FA
+[FA](https://github.com/z1skgr/Advanced-Design/issues/1#issue-1164228981)
 #### HA
 | Name |  In/Out  |  Width  | Board |
 | ------- | --- | --- | --- |
@@ -40,7 +41,7 @@ LED[5] <= IN1
 | LED | OUT | 2 | LD0 - LD1 |
 
 [HA](https://github.com/z1skgr/Advanced-Design/issues/2#issue-1164229190)
-[FA]()
+
 
 ## Bit CLA and FSM
 ## Post increment Pre decrement Stack
