@@ -1,4 +1,4 @@
-# Advanced Design
+# Calc
 > Calculator design using  VHDL
 
  ## Table of contents
@@ -243,7 +243,8 @@ __ACTIONS__
 
 
 ## Acknowledgments
-Projects were created for the requirements of the lesson Advanced Logic Design
+* Projects were created for the requirements of the lesson Advanced Logic Design
+* First attempts on Xilinx Suite learning VHDL
 
 [^1]: Stack is build from Xilinx Core Generator. Depth 32 positions, Width 8 bits
 [^2]: SinglePulseGenerator.vhd is used for simulation on FPGA. Pulse in FPGA's buttons.
