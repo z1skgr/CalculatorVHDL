@@ -1,4 +1,4 @@
-# Calc
+# Calculator Hardware
 > Calculator design using  VHDL
 
  ## Table of contents
